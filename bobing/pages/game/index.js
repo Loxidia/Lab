@@ -1,5 +1,3 @@
-//index.js
-//获取应用实例
 const app = getApp()
 var numarr1=[0,0,0,0,0,0];
 Page({
@@ -25,7 +23,6 @@ Page({
       '../../image/5.png',
       '../../image/6.png',
     ]
- 
   },
   enter1:function(event){
     let obj = this;
@@ -116,8 +113,6 @@ Page({
       numarr1=[0,0,0,0,0,0];
  
       }
-    
-   
   },
   enter2:function(event){
     wx.navigateTo({
